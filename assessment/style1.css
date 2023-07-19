@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container-1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 500px;
+}
+
+.head {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+
+.screen {
+  height: 25%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  display: flex;
+  justify-content: start;
+  height: 15%;
+}
+
+.row-5 {
+  display: flex;
+  justify-content: start;
+  height: 10%;
+}
+
+.row-1 button,
+.row-2 button,
+.row-3 button,
+.row-4 button {
+  width: 25%;
+}
+
+.row-5 button {
+  width: 33.3333333333333333%;
+}

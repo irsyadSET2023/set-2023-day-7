@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style1.css" />
+    <script src="./script1.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-1">
+      <div class="head">Calculator</div>
+      <div class="screen"><h1>0</h1></div>
+      <div class="row-1">
+        <button onclick="numberClick(1)"><p>1</p></button>
+        <button onclick="numberClick(2)"><p>2</p></button>
+        <button onclick="numberClick(3)"><p>3</p></button>
+        <button onclick="numberClick('/')"><p>/</p></button>
+      </div>
+      <div class="row-2">
+        <button onclick="numberClick(4)"><p>4</p></button>
+        <button onclick="numberClick(5)"><p>5</p></button>
+        <button onclick="numberClick(6)"><p>6</p></button>
+
+        <button onclick="numberClick('x')"><p>x</p></button>
+      </div>
+      <div class="row-3">
+        <button onclick="numberClick(7)"><p>7</p></button>
+        <button onclick="numberClick(8)"><p>8</p></button>
+        <button onclick="numberClick(9)"><p>9</p></button>
+
+        <button onclick="numberClick('-')"><p>-</p></button>
+      </div>
+      <div class="row-4">
+        <button onclick="numberClick(0)"><p>0</p></button>
+        <button onclick="clearNumber()"><p>clear</p></button>
+        <button id="equal" onclick="equal()"><p>=</p></button>
+        <button onclick="numberClick('+')"><p>+</p></button>
+      </div>
+      <div class="row-5">
+        <button onclick="numberClick('.')"><p>.</p></button>
+        <button onclick="numberClick('(')"><p>(</p></button>
+        <button onclick="numberClick(')')"><p>)</p></button>
+      </div>
+    </div>
+  </body>
+</html>
