@@ -51,6 +51,11 @@ function clearOnce() {
   let stringLength = screenDom.textContent.length;
   console.log(stringLength);
 
+  if (arr.length > 0) {
+    newNumber = "";
+    screenDom.textContent = 0;
+  }
+
   if (stringLength == 1) {
     newNumber = "";
     screenDom.textContent = 0;
