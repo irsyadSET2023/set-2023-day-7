@@ -52,16 +52,15 @@ function clearOnce() {
   console.log(stringLength);
 
   if (stringLength == 1) {
-    newNumber = 0;
+    newNumber = "";
+    screenDom.textContent = 0;
   } else {
     newNumber = screenDom.textContent.replace(
       screenDom.textContent[stringLength - 1],
       ""
     );
+    screenDom.textContent = newNumber;
   }
-
-  console.log(newNumber);
-  screenDom.textContent = newNumber;
 }
 
 // function equal() {
