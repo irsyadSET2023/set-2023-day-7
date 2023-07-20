@@ -46,6 +46,24 @@ function equal() {
   //   newNumber = numberDisplay;
 }
 
+function clearOnce() {
+  console.log("press");
+  let stringLength = screenDom.textContent.length;
+  console.log(stringLength);
+
+  if (stringLength == 1) {
+    newNumber = 0;
+  } else {
+    newNumber = screenDom.textContent.replace(
+      screenDom.textContent[stringLength - 1],
+      ""
+    );
+  }
+
+  console.log(newNumber);
+  screenDom.textContent = newNumber;
+}
+
 // function equal() {
 //   let input = screenDom.textContent;
 //   let numberDisplay = 0;
